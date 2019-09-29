@@ -1,0 +1,53 @@
+h1 {
+    color: brown
+}
+
+#tieude{
+text-align: center;
+}
+.tenbanh{
+    width: 19%;
+    padding-left: 19px;
+}
+.hinhanh{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 300px;
+}
+.column {
+    float: left;
+    /* width: 50%; */
+    /* padding: 10px; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+  }
+  .hinh{
+      display: inline-block
+  }
+.noidung{
+    text-align: center;
+}
+.khung{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  
+}
+.body{
+    margin-top:109px;
+}
+body{
+position: absolute;
+margin: 0px;
+}
+.body h2 {
+padding-left: 35px;
+}

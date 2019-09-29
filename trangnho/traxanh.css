@@ -1,0 +1,83 @@
+h1 {
+    color: brown
+}
+
+#tieude{
+text-align: center;
+}
+.tenbanh{
+    width: 25%;
+    padding-left: 19px;
+}
+.piccontent{
+    width: 100%;
+}
+.hinhanh{
+    width: 40%;
+    /* display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 300px; */
+}
+.gioithieu{
+    width: 30%;
+    padding-left: 20px;
+}
+/* .thongtin{
+    width:75%;
+    float:right;
+} */
+.column {
+    float: left;
+    /* width: 50%; */
+    /* padding: 10px; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+  }
+  .row-item{
+    width:75%;
+    float:right; 
+  }
+  .hinh{
+      display: inline-block
+  }
+.noidung{
+    text-align: center;
+}
+.khung{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  
+}
+.body{
+    margin-top:109px;
+    width: 1194px;
+}
+body{
+position: absolute;
+margin: 0px;
+}
+.body h2 {
+padding-left: 35px;
+}
+.row .thongtin h3{
+    width:30%;
+    display: inline-block;
+}
+.mota{
+display: none;
+}
+.baogia{
+    display: none;
+}
+.cachlam{
+    display: none;
+}
+.chumau{color: red}

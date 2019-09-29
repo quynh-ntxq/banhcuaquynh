@@ -1,0 +1,21 @@
+/* .slick-prev, .slick-next {
+    background: red;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background: brown;
+} */
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    padding: 5px 10px;
+
+}
+
+.slide {
+    height: 100%;
+}
